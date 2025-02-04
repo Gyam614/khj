@@ -137,7 +137,8 @@ public class study_0203_1 {
 		if(game==1) {
 			System.out.println("컴퓨터: 가위");
 		} else if(game==2) {
-			System.out.println("컴퓨터: 바위");
+			System.out.println("컴퓨터: "
+					+ "바위");
 		} else {
 			System.out.println("컴퓨터: 보");
 		}
