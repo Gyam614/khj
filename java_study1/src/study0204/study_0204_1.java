@@ -30,6 +30,8 @@ public class study_0204_1 {
 		case -1: case 2:
 			System.out.println("패배");
 			break;
+		default:
+			break;
 		}
 		
 		//컴퓨터 가위바위보 출력
