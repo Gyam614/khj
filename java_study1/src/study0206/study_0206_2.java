@@ -330,7 +330,7 @@ int start=0;
 	
 	int mynum = 0;
 	int comnum = 0;
-	int icecream = 1;
+	int icecream = 0;
 	
 	
 	
