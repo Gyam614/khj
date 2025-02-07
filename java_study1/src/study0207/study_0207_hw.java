@@ -56,6 +56,7 @@ public class study_0207_hw {
 		int comB = (int)(Math.random()*9+1);
 		int comC = (int)(Math.random()*9+1);
 		
+		//숫자 중복XX
 		if (comA!=comB && comA!=comC && comB!=comC)  {
 			
 //		System.out.println("[ 컴퓨터의 숫자: " + comA + ", " + comB + ", " + comC + " ]"); // => 게임 테스트용
