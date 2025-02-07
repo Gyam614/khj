@@ -141,12 +141,15 @@ public class study_0206_2 {
 	int ddraw=0;
 	
 	
-	System.out.println("==== 주사위 게임 5판전!! ==== \r");
+	System.out.println("\r==== 주사위 게임 5판전!! ==== \r");
 	
 int start=0;
 	
 	System.out.print("게임 시작 - 숫자 0을 누르면 시작됩니다: ");
 	start = scan.nextInt();
+	while(start!=0) {
+		System.out.print("잘못 입력하셨습니다. 0을 눌러 게임을 시작해주세요: ");
+		start = scan.nextInt();}
 	
 	
 	System.out.println("======================"
@@ -238,10 +241,7 @@ int start=0;
 	System.out.println("===주사위 게임 끝!===");
 	System.out.println("승리 횟수: " + dwin + "\r" + "패배 횟수: " + dlose);
 	System.out.println("무승부 횟수: " + ddraw); }
-	else if(start!=0) {
-		System.out.println("F11을 눌러 새로고침한 뒤, 0을 눌러 게임을 시작해주세요.");
-	}
-		
+	
 		
 		
 		
@@ -326,7 +326,7 @@ int start=0;
 		
 // 과제: 베스킨라빈스 게임
 	
-	System.out.println("\r\r==== 베스킨 라빈스 31! ==== \r");
+	System.out.println("\r\r==== 베스킨 라빈스 31 ==== \r");
 	
 	int mynum = 0;
 	int comnum = 0;
@@ -345,7 +345,7 @@ int start=0;
 		//숫자 잘못 입력했을 경우:
 		while (mynum>3 || mynum==0) {
 			System.out.println("잘못 입력하셨습니다.");
-			System.out.print("1~3까지의 숫자를 다시 입력해주세요: ");
+			System.out.print("1~3까지의 숫자(숫자를 진행시킬 횟수)를 다시 입력하세요: ");
 			mynum = scan.nextInt();
 			
 			if(mynum<=3 && mynum>=1) break;
@@ -385,7 +385,7 @@ int start=0;
 			}
 		
 		
-	}while(icecream<31);
+	} while(icecream<31);
 	
 	
 	
