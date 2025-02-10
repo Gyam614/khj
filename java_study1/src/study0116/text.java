@@ -112,6 +112,10 @@ public class text {
 		
 	// char는 한글자만. (문자 타입이라서..)
 
+		
+		
+	
+		
 	}
 
 }

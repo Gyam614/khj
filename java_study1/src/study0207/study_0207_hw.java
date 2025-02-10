@@ -20,6 +20,15 @@ public class study_0207_hw {
 		  */
 		
 		//7.
+		System.out.print("알파벳 입력: ");
+		char alp = sc.nextLine().charAt(0);
+		//아스키 코드에서 A-65(10진수), a - 97(10진수)
+		for(int i=1; i<=26;i++) {
+			if (alp == (i+64) || alp==(i+96)) {
+				System.out.printf("알파벳 %c 는 %d 번째 알파벳\n", alp, i);
+				break;
+			}
+		}
 		
 	
 		
