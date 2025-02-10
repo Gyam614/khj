@@ -183,6 +183,66 @@ public class study_0210_2 {
 		
 		System.out.println( name1.compareTo(name2));
 		//compareTo: 0이라면 두 문자열은 동일 | 양수: 사전적 순서가 앞일 경우 | 음수: 사전적 순서가 뒤인 경우
+		
+		// 오늘 과제: 
+		// 랜덤 범위 1~ 50
+		// 랜덤 숫자 중에서 짝수 15개를 배열에 저장
+		//15개 전부 저장되면 배열 출력하세요
+		// 숫자 중복 상관 없음
+		
+		
+		int[] hw = new int[15];
+		
+		for(int i=0; i<hw.length; i++) {
+			int even = (int)(Math.random()*50+1); //배열(짝수값) 출력
+			boolean same = true; //중복확인용 boolean타입 변수 선언
+			
+			//중복확인 코드
+			for(int c=0; c<i; c++) {
+				if (hw[c] == even)
+					same = false; }
+			
+			//중복 & 홀짝 판별 후 배열에 값 입력
+			if(((even%2)==0) && (same)) 
+				{ hw[i] = even; }
+			
+			else if((!same) || ((even%2)==1)) i=i-1;
+		} 
+		
+//배열 조회		
+for(int i=0; i<hw.length; i++) {
+	System.out.println((i+1) + "번째 배열: " + hw[i]); } 
+		
+		
+		// 중복 신경 안쓰고 만든 코드
+
+//		int[] hw = new int[15];
+//		
+//		for(int i=0; i<hw.length; i++) {
+//			
+//			int even = (int)(Math.random()*50+1);
+//			if((even%2)==0) 
+//				{ hw[i] = even; }
+//				
+//			else i=i-1;
+//		} 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
