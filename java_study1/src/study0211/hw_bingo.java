@@ -40,16 +40,11 @@ int[] game = new int[25];
 		while(true) {
 			
 			
-			boolean rowbingo = true;
-			
-			
 			// -------------빙고판 출력하는 코드-----------
 			System.out.println("┌───┬───┬──┬───┬───┐");
 			
 			for(int i=0;i<=4;i++) { // 얘는 줄바꿔주는 용도
 				for(int k=0;k<=4;k++) { // 옆으로 몇개를 출력할건가
-					
-					
 					
 					if(game[i*5+k] == 0)
 						System.out.printf(" %2s ", "■");
@@ -58,6 +53,7 @@ int[] game = new int[25];
 				}
 				System.out.println();
 			}
+			
 			System.out.println("└───┴───┴──┴───┴───┘");
 			
 			//-----------숫자를 받아오겠다----------
@@ -68,6 +64,11 @@ int[] game = new int[25];
 				if(game[i] == num) { // 내가 입력한 숫자를 배열에서 찾기
 					game[i]=0; // 내가 찾은 숫자를 0으로 표시
 				}
+					
+					
+				}
+				
+				
 			} 
 			
 				
@@ -88,7 +89,7 @@ int[] game = new int[25];
 			
 		
 		
-	}
+	
 		
 		
 		
