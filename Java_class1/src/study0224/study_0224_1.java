@@ -17,6 +17,7 @@ public class study_0224_1 {
 		Game game3 = new Game("사이버펑크", 3412);
 		total(game1, game2, game3);
 		
+		Member c = new Member();
 		
 //		Member m1 = new Member(); //(객체 생성), 인스턴스 생성
 //		

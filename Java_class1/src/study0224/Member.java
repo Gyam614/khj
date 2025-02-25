@@ -3,7 +3,7 @@ package study0224;
 
 public class Member {
 	
-	static int count = 1; //클래스 변수
+	static int count; //클래스 변수
 	
 	String name; //이름
 	int age; //나이
@@ -128,6 +128,7 @@ public class Member {
 		
 	
 //	}
+	
 	
 	
 	
