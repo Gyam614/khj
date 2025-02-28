@@ -6,22 +6,15 @@ public class study_0225_1 {
 		// TODO Auto-generated method stub
 		
 		
-		TV tv = new TV();
-		tv.onOff = true; // 전원 on
+		Product tv = new TV("삼성", 950000, "TV이름티비");
+		Product com = new Computer("NVIDIA", 2100000, "컴티비");
+		Product air = new Aircon("캐리어", 542000, "에어컨티비");
 		
-		tv.info("TV브랜드", 1200000, "TV라는 것이다");
-		System.out.println(tv.brand + " | " + tv.price + " | " + tv.name);
-//		System.out.println(tv.onOff);
-		
-		Computer com = new Computer();
-		com.onOff = true; // 전원 on
+		tv.power();
 		com.power();
-		com.info("컴브랜드", 2100000, "컴퓨터라는것이다");
-		System.out.println(com.brand + " | " + com.price + " | " + com.name);
+		air.power();
 		
-	
-		
-		
+
 		
 
 	}
