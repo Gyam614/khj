@@ -23,25 +23,6 @@ public class MainMt {
 //		System.out.println();
 
 		
-/* 
-  	자바 컬렉션 프레임워크
-  	자료구조와 알고리즘을 클래스화 시켜놓은 것
-  	자료구조 - 데이터를 저장 및 관리하는 방법
-  	알고리즘 - 저장된 데이터를 가공하는 방법
-  	
-  	Collection
-  	  List										Map
-  	  	ArrayList(배열형 구조 리스트)					HashMap	
-  	  	LinkedList									TreeMap
-  	  	Vector										Properties
-  	  	Stack
-  	  	Queue
-  	  	
-  	  Set
-  	  	HashSet
-  	  	TreeSet
- 	
- */
 		
 		
 		
@@ -62,7 +43,14 @@ public class MainMt {
 		list.remove("포카칩"); //삭제할 데이터 입력하여 삭제
 		System.out.println(list.indexOf(2313));
 		
+		list.add(0, "엘렐레");
+		
+		System.out.println( list.contains("장미란"));
+		
+//		list.clear();
+		
 		System.out.println(list);
+		
 		
 		
 		
@@ -72,3 +60,23 @@ public class MainMt {
 	}
 
 }
+
+/* 
+  	자바 컬렉션 프레임워크
+  	자료구조와 알고리즘을 클래스화 시켜놓은 것
+  	자료구조 - 데이터를 저장 및 관리하는 방법
+  	알고리즘 - 저장된 데이터를 가공하는 방법
+  	
+  	Collection
+  	  List										Map
+  	  	ArrayList(배열형 구조 리스트)					HashMap	
+  	  	LinkedList(ArrayList가 가진 단점을 보완)		TreeMap
+  	  	Vector										Properties
+  	  	Stack
+  	  	Queue
+  	  	
+  	  Set
+  	  	HashSet
+  	  	TreeSet
+ 	
+ */
